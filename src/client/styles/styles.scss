@@ -1,0 +1,8 @@
+@import "../../../node_modules/getbase/src/scss/base.scss";
+@import "../../../node_modules/getbase/src/scss/base/_helpers.scss";
+@import "_variables";
+
+body {
+  background-color: $body-color;
+  color: $text-color;
+}

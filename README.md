@@ -1,5 +1,7 @@
-# react-socket-starter
-Starter pack for Simple full-stack boilerplate for real-time apps built with ES6, react, express and socket.io 
+# React-Socket-Starter
+_simple boilerplate for full-stack real-time apps built with ES6, react, express and socket.io_
+
+See demo here: [http://react-socket-starter-demo.herokuapp.com/](http://react-socket-starter-demo.herokuapp.com/).
 
 ##What's included
 
@@ -27,6 +29,8 @@ Starter pack for Simple full-stack boilerplate for real-time apps built with ES6
 * `heroku stack:set cedar-14`
 * `heroku features:enable http-session-affinity`
 * `npm run deploy`
+
+
 
 ## TODO (pull requests welcome!)
 

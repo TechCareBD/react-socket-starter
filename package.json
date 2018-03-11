@@ -1,0 +1,58 @@
+{
+  "name": "react-socket-starter",
+  "version": "0.0.1",
+  "description": "simple boilerplate for real-time apps built with ES6, react, express and socket.io",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "gulp",
+    "deploy": "git push heroku master"
+  },
+  "engines": {
+    "node": "6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GergeStrakhov/react-socket-starter.git"
+  },
+  "author": "George Strakhov <george.strakhov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GergeStrakhov/react-socket-starter/issues"
+  },
+  "homepage": "https://github.com/GergeStrakhov/react-socket-starter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "nodemon": "^1.10.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-history-api-fallback": "^2.0.0",
+    "fs": "0.0.2",
+    "getbase": "^3.1.5",
+    "hashids": "^1.1.0",
+    "lodash": "^4.14.1",
+    "path": "^0.12.7",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8"
+  }
+}
